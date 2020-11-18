@@ -1,4 +1,11 @@
 const User = require('./user')
+const Hunt = require('./hunt')
+const Tier = require('./tier')
+const Task = require('./task')
+const Team = require('./team')
+const Member = require('./member')
+const Participant = require('./participant')
+const Submission = require('./submission')
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -14,5 +21,12 @@ const User = require('./user')
  * instead of: const User = require('../db/models/user')
  */
 module.exports = {
-  User
+  User,
+  Hunt,
+  Tier,
+  Task,
+  Team,
+  Member,
+  Participant,
+  Submission
 }
